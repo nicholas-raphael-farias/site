@@ -3,6 +3,7 @@ import { ThemeSwitch } from "./theme-switch";
 import { metaData } from "../lib/config";
 
 const navItems = {
+  "/": { name: "Home" },
   "https://digital-garden.nicholas-raphael.work/": { name: "Digital garden" },
   "/projects": { name: "Projects" },
   "/photos": { name: "Photos" },
